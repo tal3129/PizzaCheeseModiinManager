@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pizzacheese.pizzacheesemanager.EditDiscounts">
+
+
+    <Button
+        android:id="@+id/addDiscount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="הנחה חדשה" />
+<TextView
+    android:padding="5dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="לחץ לחיצה קצרה כדי להפעיל/לכבות מבצע, לחיצה ארוכה כדי למחוק"/>
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:dividerHeight="8dp"
+        android:longClickable="true"
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+
+</LinearLayout>

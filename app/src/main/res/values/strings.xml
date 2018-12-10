@@ -1,0 +1,14 @@
+<resources>
+	<string name="app_name">Pizza Cheese Manager</string>
+	<string name="possibleToppings">\?האם אפשר לשים על המוצר תוספות</string>
+	<array name="productTypes">
+		<item>פיצות</item>
+		<item>שתייה</item>
+		<item>פסטות</item>
+		<item>מאפים</item>
+		<item>סלטים</item>
+		<item>מנות אחרונות</item>
+		<item>תוספות</item>
+	</array>
+	<string name="title_activity_notifications">ActivityNotifications</string>
+</resources>
