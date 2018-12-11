@@ -45,7 +45,8 @@ public class ProductList extends ArrayAdapter<Product> {
         listViewItem.setBackgroundColor(ContextCompat.getColor(context, (product.isAvailable()) ? R.color.lightGreen : R.color.lightRed));
         productName.setText(product.getName());
         productPrice.setText(String.valueOf(product.getPrice()));
-        Picasso.get().load(Uri.parse(product.getUri())).into(productImage);
+        if(product.getUri() != null)
+            Picasso.get().load(Uri.parse(product.getUri())).into(productImage);
 
         return listViewItem;
     }

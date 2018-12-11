@@ -1,5 +1,5 @@
 <resources>
-	<string name="app_name">Pizza Cheese Manager</string>
+	<string name="app_name">Pizza Cheese Modiin Manager</string>
 	<string name="possibleToppings">\?האם אפשר לשים על המוצר תוספות</string>
 	<array name="productTypes">
 		<item>פיצות</item>
